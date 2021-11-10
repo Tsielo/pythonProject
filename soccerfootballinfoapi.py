@@ -1,11 +1,11 @@
 import requests
 
-url = "https://instagram47.p.rapidapi.com/public_post_comments"
+url = "https://soccer-football-info.p.rapidapi.com/matches/view/basic/"
 
-querystring = {"shortcode":"CU4lZWkojkY"}
+querystring = {"i":"1","l":"en_US"}
 
 headers = {
-    'x-rapidapi-host': "instagram47.p.rapidapi.com",
+    'x-rapidapi-host': "soccer-football-info.p.rapidapi.com",
     'x-rapidapi-key': "65547dca2fmshd461c5742ef8e50p10016fjsn3e95b74b4b44"
     }
 
